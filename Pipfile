@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+polars = "*"
+scipy = "*"
+streamlit = "*"
+notebook = "*"
+matplotlib = "*"
+ruff = "*"
+geopy = "*"
+grpcio = "*"
+grpcio-tools = "*"
+protobuf = "*"
+scikit-learn = "*"
+pyarrow = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
